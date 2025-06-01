@@ -6,7 +6,7 @@ st.set_page_config(page_title="Renda Uber", layout="centered")
 
 st.title("📊 Controle de Renda - Uber")
 
-Inicialização do DataFrame
+# Inicialização do DataFrame
 
 if "dados" not in st.session_state: st.session_state.dados = pd.DataFrame(columns=[ "Data", "Km Rodado", "Uber (R$)", "99 (R$)", "Outros (R$)", "Gorjeta (R$)", "Combustível (R$)", "Aluguel (R$)", "Faturamento Bruto (R$)", "Custo Total (R$)", "Lucro Líquido (R$)" ])
 
