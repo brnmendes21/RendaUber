@@ -1,4 +1,6 @@
-import streamlit as st import pandas as pd from datetime import datetime
+import streamlit as st
+import pandas as pd
+from datetime import datetime
 
 st.set_page_config(page_title="Renda Uber", layout="centered")
 
